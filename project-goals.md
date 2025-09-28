@@ -67,6 +67,31 @@ I also do not want the website to be cluttered, but also have some features that
 - Form labels properly associated (if contact elements are added)
 - Focus indicators for keyboard users
 
+## CSS Typography & Layout
+
+### Typography Goals
+
+- **Font Selection**: Use elegant serif fonts (like Crimson Text or Libre Baskerville) for the poem text to evoke classical literary tradition
+- **Font Hierarchy**: Establish clear visual hierarchy with varying font sizes and weights for headings vs. body text
+- **Line Height**: Generous line spacing (1.6-1.8) to give each line of poetry room to breathe
+- **Letter Spacing**: Subtle letter-spacing adjustments for improved readability
+- **Font Loading**: Ensure web-safe font fallbacks for consistent display across devices
+
+### Layout & Spacing
+
+- **Mobile-First Approach**: Start with mobile layout, then enhance for larger screens
+- **Responsive Breakpoints**: Design for mobile (320px+), tablet (768px+), and desktop (1024px+)
+- **Container Width**: Maximum content width to maintain readability on large screens
+- **Vertical Rhythm**: Consistent spacing between sections using CSS custom properties
+- **Grid/Flexbox**: Use modern CSS layout techniques for responsive design
+
+### Visual Design System
+
+- **Color Palette**: Soft pastels (blues/greens) with high contrast ratios for accessibility
+- **White Space**: Embrace minimalism with generous margins and padding
+- **Focus States**: Clear, accessible focus indicators for keyboard navigation
+- **Print Styles**: Basic print stylesheet for poem printing
+
 ## Success Criteria
 
 - [ ] Successfully interpret and present Emily Dickinson's "The Soul selects her own Society"
