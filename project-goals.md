@@ -110,6 +110,40 @@ I also do not want the website to be cluttered, but also have some features that
 - Personal interpretation and reflection content
 - Navigation between poem and interpretation sections
 
+## Documentation & Deployment
+
+### Development Process Documentation
+
+- **Design Decisions Log**: Record key choices about color palette, typography, layout, and how they connect to the poem's themes
+- **AI Collaboration Journal**: Document experiences using GitHub Copilot's Ask, Agent, and Edit modes - what worked well, challenges faced, and how AI helped solve problems
+- **Accessibility Testing Results**: Document WCAG AA compliance testing, including:
+  - Color contrast ratios and testing tools used
+  - Screen reader testing results
+  - Keyboard navigation verification
+  - Mobile accessibility checks
+- **Responsive Design Process**: Screenshots and notes about mobile-first development approach and breakpoint decisions
+
+### Technical Documentation
+
+- **Code Structure Overview**: Brief explanation of HTML semantic structure and CSS organization
+- **Performance Metrics**: Load time measurements and optimization techniques used
+- **Browser Compatibility**: Testing results across different browsers and devices
+- **Deployment Process**: Step-by-step Netlify deployment documentation with any configuration notes
+
+### Reflection & Learning Outcomes
+
+- **Personal Interpretation Connection**: How design choices reflect your understanding of the poem's themes
+- **Challenges & Solutions**: Technical problems encountered and how they were resolved
+- **Skills Development**: New techniques learned and areas for future improvement
+- **AI Tool Effectiveness**: Evaluation of how GitHub Copilot enhanced or changed your development process
+
+### Project Deliverables
+
+- **Live Site URL**: Final deployed Netlify link
+- **Repository Link**: GitHub repository with clean commit history
+- **README.md**: Project overview, setup instructions, and key features
+- **Final Presentation Materials**: Screenshots, process documentation, and key learnings summary
+
 ## Current Status
 
 Setting up professional tooling and project structure
