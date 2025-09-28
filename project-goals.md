@@ -14,8 +14,8 @@
 
 ## Overview
 
-- **Project Type:** Portfolio website for Web Dev II
-- **Target Audience:** Potential employers, entry-level web developer positions
+- **Project Type:** Poetry interpretation website for Web Dev II
+- **Target Audience:** Instructors, peers, and potential employers evaluating web development skills
 - **Timeline:** TBD
 
 ## Learning Goals
@@ -38,23 +38,53 @@ I also do not want the website to be cluttered, but also have some features that
 - WCAG AA accessibility compliance
 - Deploy to Netlify
 
+## Semantic HTML Structure
+
+### Planned Page Structure
+
+- `<header>` - Site title and navigation
+- `<main>` - Primary content container
+  - `<section>` - Poem presentation area
+    - `<article>` - The actual poem text with proper stanza structure
+  - `<section>` - Personal interpretation and reflection
+  - `<aside>` - Additional context or author information (if needed)
+- `<footer>` - Copyright and deployment information
+
+### Accessibility-First Markup
+
+- Proper heading hierarchy (h1 → h2 → h3) for screen readers
+- `<blockquote>` for poem citation with proper attribution
+- Semantic list elements for stanzas or key points
+- `alt` attributes for any decorative elements
+- `lang` attribute for proper language identification
+- Skip links for keyboard navigation
+
+### Content Organization
+
+- Logical reading order that flows naturally
+- Clear section breaks between poem and interpretation
+- Meaningful link text and button labels
+- Form labels properly associated (if contact elements are added)
+- Focus indicators for keyboard users
+
 ## Success Criteria
 
-- [ ] Showcase 4+ Web Dev I projects
-- [ ] Professional and clean visual design
-- [ ] Fast loading (under 3 seconds)
-- [ ] Works on mobile and desktop
-- [ ] Accessible to screen readers
+- [ ] Successfully interpret and present Emily Dickinson's "The Soul selects her own Society"
+- [ ] Achieve WCAG AA accessibility compliance
+- [ ] Create responsive design that works on all devices
+- [ ] Deploy successfully to Netlify
+- [ ] Demonstrate effective use of semantic HTML5 and CSS3
+- [ ] Complete professional tooling setup with Prettier and proper documentation
 
 ## Key Features Needed
 
-- Hero section with photo and introduction
-- Skills showcase section
-- Project portfolio grid
-- Contact form
-- Smooth navigation
-- Hover effects
+- Clean, readable presentation of the poem text
+- Minimalist design reflecting the poem's introspective themes
+- Responsive typography and layout
+- Accessibility features (proper heading hierarchy, alt text, color contrast)
+- Personal interpretation and reflection content
+- Navigation between poem and interpretation sections
 
 ## Current Status
 
-Not Started
+Setting up professional tooling and project structure
