@@ -2,8 +2,8 @@
 
 ## Quick Summary
 
-- Which mode did you use most? [Ask/Agent/Edit]
-- Most helpful Copilot moment: [One sentence]
+- Which mode did you use most? [Ask]
+- Most helpful Copilot moment: Clarifying issue requirements and explaining what needed to be done. 
 
 ## Key Interactions (3-5 entries)
 
@@ -28,5 +28,5 @@
 ## What I Learned
 
 - **Ask vs Agent:** Use Ask to understand, Agent to build
-- **Best discovery:** [Something Copilot taught you]
-- **Next time:** [One thing you'd do differently]
+- **Best discovery:** It broke down the requirements and clarified what had to be completed. It also explained how to set up the .prettierrc file and the configurations. 
+- **Next time:** Use Ask more often to clarify requirements before starting to build. 
