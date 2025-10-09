@@ -1,0 +1,13 @@
+{
+  "name": "poetry-interpretation-emilylubonty",
+  "version": "1.0.0",
+  "description": "A responsive poetry interpretation website showcasing Emily Dickinson's 'The Soul selects her own Society' with minimalist design",
+  "scripts": {
+    "format": "prettier --write \"**/*.{html,css,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "keywords": ["poetry", "emily-dickinson", "minimalist", "web-development"],
+  "author": "Emily Lubonty"
+}
