@@ -1,3 +1,33 @@
+/* Responsive Hero Banner */
+.hero-banner {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 24px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    background: #fff;
+}
+.hero-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+    transition: max-height 0.3s;
+}
+@media (max-width: 600px) {
+    .hero-img {
+        max-height: 180px;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+    .hero-img {
+        max-height: 260px;
+    }
+}
 /* Responsive rounded thumbnail below header */
 .thumbnail-wrapper {
     display: flex;
