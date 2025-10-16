@@ -92,17 +92,37 @@ body {
     margin-right: auto;
 }
 
+/* Header font */
+@font-face {
+  font-family: 'NotoSansMon-VariableFont';
+  src: url('/fonts/NotoSansMon-VariableFont.woff2')
+       format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
 /* Poem Title */
 h1 {
+    font-family: NotoSansMon-VariableFont;
     font-size: 3.157rem;
     margin-bottom: 10px;
     
 }
 /* Author Name */
 h2 {
+    font-family: NotoSansMon-VariableFont;
     font-size: 2.369rem;
     margin-top: 30px;
     margin-bottom: 15px;
+}
+
+/* Second Poem Title */
+h3 {
+    font-family: NotoSansMon-VariableFont;
+    font-size: 1.777rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 /* Poem Body */
@@ -128,11 +148,9 @@ p {
     text-align: center;
 }
 .poem {
-    font-family: 'NanumMyeongjo-Regular';
     font-style: normal;
     margin: 20px auto;
     padding: 50px;
-    border-left: 4px solid #ccc;
     text-align: center;
     max-width: 600px;
     font-weight: bold;
