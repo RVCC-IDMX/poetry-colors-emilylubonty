@@ -143,34 +143,34 @@ h3 {
 
 /* Poem Body */
 @font-face {
-  font-family: 'NanumMyeongjo';
+  font-family: 'NanumMyeongjo-Regular-webfont';
   src: url('/fonts/nanummyeongjo-regular-webfont.woff2')
        format('woff2');
-  font-weight: 400;
+  font-weight: 200;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'NanumMyeongjo';
+  font-family: 'NanumMyeongjo-Bold-webfont';
   src: url('/fonts/nanummyeongjo-bold-webfont.woff2')
        format('woff2');
-  font-weight: 700;
+  font-weight: 600;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'NanumMyeongjo';
+  font-family: 'NanumMyeongjo-ExtraBold-webfont';
   src: url('/fonts/nanummyeongjo-extrabold-webfont.woff2')
        format('woff2');
-  font-weight: 800;
+  font-weight: 900;
   font-display: swap;
 }
 
 p {
-    font-family: 'NanumMyeongjo', serif;
+    font-family: 'NanumMyeongjo-Regular-webfont';
     font-size: 1.000rem;
     margin-bottom: 15px;
-    text-align: center;;
+    text-align: center;
 }
 
 
