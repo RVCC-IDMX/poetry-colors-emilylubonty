@@ -93,11 +93,20 @@ body {
 }
 
 /* Header font */
+
+:root {
+  --text-base: clamp(1rem, 0.9rem + 0.5vw, 1.125rem);
+  --text-lg: clamp(1.25rem, 1.1rem + 0.75vw, 1.5rem);
+  --text-xl: clamp(1.563rem, 1.3rem + 1.3vw, 2rem);
+  --text-2xl: clamp(1.953rem, 1.5rem + 2.25vw, 2.5rem);
+  --text-3xl: clamp(2.441rem, 1.8rem + 3.2vw, 3.5rem);
+}
+
 @font-face {
   font-family: 'NotoSansMon-VariableFont';
-  src: url('/fonts/NotoSansMon-VariableFont.woff2')
+  src: url('/fonts/NotoSansMono-VariableFont_wdth,wght.woff2')
        format('woff2');
-  font-weight: 400;
+  font-weight: 100 900;
   font-display: swap;
 }
 
@@ -105,13 +114,20 @@ body {
 h1 {
     font-family: NotoSansMon-VariableFont;
     font-size: 3.157rem;
+    font-variation-settings: 'wght' 200;
     margin-bottom: 10px;
-    
+    transition: font-variation-settings 0.3s ease;
 }
+
+h1:hover {
+    font-variation-settings: 'wght' 500;
+}
+
 /* Author Name */
 h2 {
     font-family: NotoSansMon-VariableFont;
     font-size: 2.369rem;
+    font-weight: 200;
     margin-top: 30px;
     margin-bottom: 15px;
 }
@@ -127,26 +143,37 @@ h3 {
 
 /* Poem Body */
 @font-face {
-  font-family: 'NanumMyeongjo-Regular';
-  src: url('/fonts/NanumMyeongjo-Regular.woff2')
+  font-family: 'NanumMyeongjo';
+  src: url('/fonts/nanummyeongjo-regular-webfont.woff2')
        format('woff2');
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'NanumMyeongjo-Bold';
-  src: url('/fonts/NanumMyeongjo-Bold.woff2')
+  font-family: 'NanumMyeongjo';
+  src: url('/fonts/nanummyeongjo-bold-webfont.woff2')
        format('woff2');
   font-weight: 700;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'NanumMyeongjo';
+  src: url('/fonts/nanummyeongjo-extrabold-webfont.woff2')
+       format('woff2');
+  font-weight: 800;
+  font-display: swap;
+}
+
 p {
-    font-family: 'NanumMyeongjo-Regular';
+    font-family: 'NanumMyeongjo', serif;
     font-size: 1.000rem;
     margin-bottom: 15px;
-    text-align: center;
+    text-align: center;;
 }
+
+
 .poem {
     font-style: normal;
     margin: 20px auto;
