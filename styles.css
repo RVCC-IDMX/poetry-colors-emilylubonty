@@ -195,9 +195,10 @@ p {
     border-radius: 4px;
 }
 footer {
+    font-family: 'NanumMyeongjo-Regular-webfont';
     text-align: center;
-    font-size: 0.9em;
-    color: #777;
+    font-size: 9px;
+    color: #000000;
     margin-top: 40px;
     border-top: 1px solid #ddd;
     padding-top: 10px;
