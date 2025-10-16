@@ -113,7 +113,7 @@ body {
 /* Poem Title */
 h1 {
     font-family: NotoSansMon-VariableFont;
-    font-size: 3.157rem;
+    font-size: var(--text-3xl);
     font-variation-settings: 'wght' 200;
     margin-bottom: 10px;
     transition: font-variation-settings 0.3s ease;
@@ -126,7 +126,7 @@ h1:hover {
 /* Author Name */
 h2 {
     font-family: NotoSansMon-VariableFont;
-    font-size: 2.369rem;
+    font-size: var(--text-2xl);
     font-weight: 200;
     margin-top: 30px;
     margin-bottom: 15px;
@@ -135,7 +135,7 @@ h2 {
 /* Second Poem Title */
 h3 {
     font-family: NotoSansMon-VariableFont;
-    font-size: 1.777rem;
+    font-size: var(--text-xl);
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
@@ -168,11 +168,10 @@ h3 {
 
 p {
     font-family: 'NanumMyeongjo-Regular-webfont';
-    font-size: 1.000rem;
+    font-size: var(--text-base);
     margin-bottom: 15px;
     text-align: center;
 }
-
 
 .poem {
     font-style: normal;
