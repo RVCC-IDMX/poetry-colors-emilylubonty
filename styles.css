@@ -84,44 +84,51 @@ header {
     margin-bottom: 20px;
 } 
 body {
-    font-family: 'Crimson Text', serif; 
-    line-height: 1.8;
-    color: #000000;  
+    line-height: 1.8; 
     background-color: #f0f4f8;
     margin: 0;
-    padding: 20px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 10px 10px 10px rgb(0, 0, 0);
-    border-radius: 10px;
-}
-h1, h2 {
-    font-family: 'Kaushan Script', 'Brush Script MT', cursive; 
-    color: #2c3e50;
-    font-weight: 300;
 }
 
 /* Poem Title */
 h1 {
-    font-size: 4em;
+    font-size: 3.157rem;
     margin-bottom: 10px;
     
 }
 /* Author Name */
 h2 {
-    font-size: 3.5em;
+    font-size: 2.369rem;
     margin-top: 30px;
     margin-bottom: 15px;
 }
 
 /* Poem Body */
+@font-face {
+  font-family: 'NanumMyeongjo-Regular';
+  src: url('/fonts/NanumMyeongjo-Regular.woff2')
+       format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NanumMyeongjo-Bold';
+  src: url('/fonts/NanumMyeongjo-Bold.woff2')
+       format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
 p {
-    font-size: 1.4em;
+    font-family: 'NanumMyeongjo-Regular';
+    font-size: 1.000rem;
     margin-bottom: 15px;
     text-align: center;
 }
 .poem {
+    font-family: 'NanumMyeongjo-Regular';
     font-style: normal;
     margin: 20px auto;
     padding: 50px;
