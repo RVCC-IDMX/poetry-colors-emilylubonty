@@ -157,7 +157,7 @@ body {
 h1 {
     font-family: NotoSansMon-VariableFont;
     font-size: var(--text-3xl);
-    color: var(--primary-700);
+    color: var(--primary-900);
     font-variation-settings: 'wght' 200;
     margin-bottom: 10px;
     transition: font-variation-settings 0.3s ease;
@@ -165,7 +165,7 @@ h1 {
 
 h1:hover {
     font-variation-settings: 'wght' 300;
-    color: var(--primary-900);
+    color: var(--neutral-700);
 }
 
 /* Author Name */
@@ -182,6 +182,7 @@ h2 {
 h3 {
     font-family: NotoSansMon-VariableFont;
     font-size: var(--text-xl);
+    color: var(--primary-900);
     font-weight: 400;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -225,6 +226,7 @@ p {
 p:hover{
     color: var(--primary-900);
     transition: color 0.3s ease;
+    background: var(--neutral-300);
 }
 
 .poem {
@@ -241,7 +243,6 @@ p:hover{
     margin-bottom: 20px;
 }
 
-
 .annotation {
     background-color: var(--background);
     border-left: 4px solid var(--background-dark);
@@ -249,12 +250,22 @@ p:hover{
     margin: 20px 0;
     border-radius: 4px;
 }
+
 footer {
-    font-family: 'NanumMyeongjo-Regular-webfont';
-    text-align: center;
-    font-size: 9px;
-    color: var(--primary-900);
     margin-top: 40px;
     border-top: 1px solid var(--border-light);
     padding-top: 10px;
+}
+
+.footer-text {
+    font-family: 'NanumMyeongjo-Regular-webfont';
+    font-size: 0.75rem;
+    color: var(--neutral-900);
+    margin: 0;
+    text-align: center;
+}
+
+.footer-text:hover {
+    color: var(--neutral-900);
+    background: transparent;
 }
