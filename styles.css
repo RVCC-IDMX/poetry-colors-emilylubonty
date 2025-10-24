@@ -83,6 +83,7 @@
 :root {
   /* Primary palette */
   --primary: hsl(203, 89%, 53%);
+  --primary-light: hsl(203, 89%, 63%);
   --primary-dark: hsl(207, 90%, 54%);
   
   /* Text colors */
@@ -91,6 +92,8 @@
   
   /* Backgrounds */
   --background: hsl(208, 44%, 95%);
+  --background-light: hsl(208, 44%, 98%);
+  --background-dark: hsl(208, 44%, 90%);
   --surface: hsl(0, 0%, 100%);
   
   /* Additional colors */
@@ -102,7 +105,7 @@ header {
 } 
 body {
     line-height: 1.8; 
-    background-color: #f0f4f8;
+    background-color: var(--background);
     margin: 0;
     max-width: 800px;
     margin-left: auto;
@@ -205,8 +208,8 @@ p {
     margin-bottom: 20px;
 }
 .annotation {
-    background-color: #eaf2f8;
-    border-left: 4px solid #2980b9;
+    background-color: var(--background);
+    border-left: 4px solid var(--background-dark);
     padding: 10px 15px;
     margin: 20px 0;
     border-radius: 4px;
@@ -215,8 +218,8 @@ footer {
     font-family: 'NanumMyeongjo-Regular-webfont';
     text-align: center;
     font-size: 9px;
-    color: #000000;
+    color: var(--text);
     margin-top: 40px;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid var(--border-light);
     padding-top: 10px;
 }
